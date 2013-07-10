@@ -1,0 +1,10 @@
+
+<osm-script output="json">
+  <query type="relation">
+    <has-kv k="route" v="subway"/>
+    <bbox-query s="38.927365763942475" w="-77.06840515136719" n="39.00584545569232" e="-76.9478988647461"/>
+  </query>
+  <print mode="meta"/>
+  <recurse type="down"/>
+  <print mode="meta"/>
+</osm-script>
